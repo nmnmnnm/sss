@@ -16,6 +16,7 @@ public class Text2 extends HttpServlet {
      //   super.doGet(req, resp);
         Map<String,Object> obj= new HashMap<String, Object>();
         obj.put("aaa","bbssssbb");
+        obj.put("aaas","bbssssbb");
 //      String s = JSONObject.toJSONString(obj);
         String abc=JSONObject.toJSONString(obj);
         resp.getWriter().print(abc);
